@@ -7,7 +7,7 @@ By default you don't need to change anything, but if you want you can change the
 | API_PORT                 | 4000          | |
 | SURVEY_ANSWERS_DIRECTORY | .             | Output directory for survey answer json files. Can be realtive to the working directory (e.g. `survey_results` or an absolute path (e.g. `/home/user/survey_results`). Defaults to the current working directory. Make sure that the directory exists. |
 
-## Installing Dpendencies
+## Installing Dependencies
 `yarn install` will install the required dependencies defined in package.json
 
 ## Running
