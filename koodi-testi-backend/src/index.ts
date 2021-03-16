@@ -57,6 +57,8 @@ app.post('/survey', (request, response) => {
     response.send({ thank_you_text: schema.thank_you_text });
 });
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
     console.log(`koodi-testi app listening at http://localhost:${port}`)
 });
+
+export { app, server };

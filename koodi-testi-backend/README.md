@@ -15,3 +15,6 @@ By default you don't need to change anything, but if you want you can change the
 
 ## Building
 `yarn build` builds the program for production to the `build` folder. Run `node dist/index.js` to run the compiled program.
+
+## Running tests
+`yarn test`  
